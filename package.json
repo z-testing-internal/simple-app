@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "cat /var/task/commit && next build",
     "start": "next start"
   }
 }
