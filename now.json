@@ -6,7 +6,7 @@
             "config": {	
                 "zeroConfig": true,	
                 "framework": "nextjs",	
-                "forceBuildIn": "iad1",	
+                "forceBuildIn": "iad10",	
                 "debug": true	
             }	
      }	
