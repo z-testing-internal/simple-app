@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "echo \"fargate version: `cat cat /var/task/commit` \n\" && next build",
+    "build": "echo \"fargate version: `cat /var/task/commit` \n\" && next build",
     "start": "next start"
   }
 }
