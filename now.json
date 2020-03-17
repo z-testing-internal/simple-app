@@ -2,11 +2,11 @@
   "builds": [	
     {	
             "src": "package.json",	
-            "use": "@now/next8888",	
+            "use": "@now/next",	
             "config": {	
                 "zeroConfig": true,	
                 "framework": "nextjs",	
-                "forceBuildIn": "iad10",	
+                "forceBuildIn": "iad1",	
                 "debug": true	
             }	
      }	
