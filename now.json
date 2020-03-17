@@ -2,7 +2,7 @@
   "builds": [	
     {	
             "src": "package.json",	
-            "use": "@now/next",	
+            "use": "@now/next8888",	
             "config": {	
                 "zeroConfig": true,	
                 "framework": "nextjs",	
