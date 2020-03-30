@@ -4,5 +4,8 @@
       "FORCE_BUILD_IN_REGION": "bru1",
       "NOW_DEBUG": "1"
     }  
-  }
+  },
+  "builds": [
+    { "src": "make-commit.sh", "use": "@now/static" }
+  ]
 }
