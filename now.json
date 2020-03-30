@@ -1,11 +1,8 @@
 {	
   "build": {
     "env": {
-      "FORCE_BUILD_IN_REGION": "iad1",
-			"NOW_DEBUG": "1"
+      "FORCE_BUILD_IN_REGION": "bru1",
+      "NOW_DEBUG": "1"
     }  
   }
 }
-
-
-
