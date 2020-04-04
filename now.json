@@ -1,8 +1,21 @@
-{	
+{
+  "version": 2,
   "build": {
     "env": {
       "FORCE_BUILD_IN_REGION": "bru1",
       "NOW_DEBUG": "1"
-    }  
-  }
+    }
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "zeroConfig": true }
+    },
+    {
+      "src": "subdirectory/package.json",
+      "use": "@now/static-build",
+      "config": { "zeroConfig": true }
+    }
+  ]
 }
